@@ -51,4 +51,12 @@ header nav ul {
     display flex: ;
     color: white;
     align-items: center;
+    font-size: 3.5rem;
+
+}
+
+.jumbotrom h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
 }
