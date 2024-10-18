@@ -8,7 +8,7 @@
     border: unset;
     outline: unset;
     box-sizing: border-box;
-    list-style: none;
+    list-style: none;;
 }
 
 a {
@@ -59,4 +59,13 @@ header nav ul {
     font-size: 3.5rem;
     font-weight: 700;
     text-align: center;
+}
+
+/*        tarjetas                */
+
+.card{
+    background-color:wheat
+}
+.card__content{
+ font-size: 32px;
 }
