@@ -18,6 +18,12 @@ a {
 
 /* -----------------header---------------- */
 
+header{
+    position: sticky;
+    top: 0%;
+    background-color: bisque;
+
+}
 header nav {
     display: flex;
     justify-content: space-between;
@@ -52,6 +58,7 @@ header nav ul {
     color: white;
     align-items: center;
     font-size: 3.5rem;
+    font-family: tipografia1;
 
 }
 
@@ -68,4 +75,10 @@ header nav ul {
 }
 .card__content{
  font-size: 32px;
+}
+
+/* directivas */
+@font-face {
+    font-family: tipografia1;
+    src: url(/assets/Inter-VariableFont_opsz\,wght.ttf);
 }
